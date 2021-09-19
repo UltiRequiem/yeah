@@ -1,6 +1,8 @@
 # Yeah
 
-Yet Another yes clone but in Golang.
+Output a string repeatedly until killed.
+
+Yet Another [`yes`](https://github.com/coreutils/coreutils/blob/master/src/yes.c) clone but in Golang.
 
 ## Usage
 
