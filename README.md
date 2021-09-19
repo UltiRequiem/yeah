@@ -20,6 +20,12 @@ yeah custom string
 
 > This will print "custom string" until the process is canceled.
 
+### Installation
+
+```bash
+go install github.com/UltiRequiem/yeah@latest
+```
+
 ### License
 
 This project is licensed under the [MIT License](./LICENSE.md).
