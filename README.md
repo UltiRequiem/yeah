@@ -10,13 +10,15 @@ Just like [`yes`](<https://en.wikipedia.org/wiki/Yes_(Unix)>):
 yeah
 ```
 
-This will print "y" until the process is canceled.
+> This will print "y" until the process is canceled.
 
 You can also pass a custom string to repeat:
 
 ```bash
-yeah yeah
+yeah custom string
 ```
+
+> This will print "custom string" until the process is canceled.
 
 ### License
 
