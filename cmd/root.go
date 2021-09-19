@@ -7,15 +7,13 @@ import (
 )
 
 func Init() {
-	// If you do not pass any argument
+	var toPrintUntilKilled string = "y"
+
 	if len(os.Args) == 1 {
-		for {
-			fmt.Println("y")
-		}
+		toPrintUntilKilled = strings.Join(os.Args[1:], " ")
 	}
 
 	for {
-		fmt.Println(strings.Join(os.Args[1:], " "))
+		fmt.Println(toPrintUntilKilled)
 	}
-
 }
