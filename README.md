@@ -34,6 +34,8 @@ yeah custom string
 go install github.com/UltiRequiem/yeah@latest
 ```
 
+Or use a binary from [releases](https://github.com/UltiRequiem/yeah/releases/latest).
+
 ### License
 
 This project is licensed under the [MIT License](./LICENSE.md).
