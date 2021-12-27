@@ -7,12 +7,7 @@ import (
 )
 
 func Init() {
-
-	toPrintUntilKilled := []byte("y\n")
-
-	if len(os.Args) > 1 {
-		toPrintUntilKilled = []byte(strings.Join(os.Args[1:], " ") + "\n")
-	}
+	toPrintUntilKilled := []byte(map[bool]string{true: strings.Join(os.Args[1:], " "), false: "y"}[len(os.Args) > 1] + "\n")
 
 	for {
 		os.Stdout.Write(toPrintUntilKilled)
