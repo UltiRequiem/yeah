@@ -1,20 +1,27 @@
 # Yeah
 
-[![GitMoji](https://img.shields.io/badge/Gitmoji-%F0%9F%8E%A8%20-FFDD67.svg)](https://gitmoji.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![Lines Of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/yeah?color=blue&label=Total%20Lines)
-![CodeQL](https://github.com/UltiRequiem/yeah/workflows/CodeQL/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/UltiRequiem/yeah)](https://goreportcard.com/report/github.com/UltiRequiem/yeah)
 
 Output a string repeatedly until killed.
 
-Yet Another [`yes`](https://github.com/coreutils/coreutils/blob/master/src/yes.c) clone but in Golang.
+Yet Another
+[`yes`](https://github.com/coreutils/coreutils/blob/master/src/yes.c) clone but
+in Golang.
+
+## Installation
+
+```sh
+go install github.com/UltiRequiem/yeah@latest
+```
+
+Or use a binary from
+[releases](https://github.com/UltiRequiem/yeah/releases/latest).
 
 ## Usage
 
-Just like [`yes`](<https://en.wikipedia.org/wiki/Yes_(Unix)>):
+Just like [`yes`](https://en.wikipedia.org/wiki/Yes_(Unix)):
 
-```bash
+```sh
 yeah
 ```
 
@@ -22,20 +29,24 @@ yeah
 
 You can also pass a custom string to repeat:
 
-```bash
+```sh
 yeah custom string
 ```
 
 > This will print "custom string" until the process is canceled.
 
-### Installation
+## Support
 
-```bash
-go install github.com/UltiRequiem/yeah@latest
-```
+Open an Issue, I will check it a soon as possible 👀
 
-Or use a binary from [releases](https://github.com/UltiRequiem/yeah/releases/latest).
+If you want to hurry me up a bit
+[send me a tweet](https://twitter.com/UltiRequiem) 😆
 
-### License
+Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
+my work 🙏
 
-This project is licensed under the [MIT License](./LICENSE.md).
+Don't forget to start the repo ⭐
+
+## Licence
+
+Licensed under the MIT License 📄
